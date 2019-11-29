@@ -1,0 +1,532 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.container{
+    width: 100%;
+}
+.top-bar{
+    width: 100%;
+    height: 50px;
+    background-color: orange;
+}
+.top-bar p{
+    float: left;
+    margin:1.2%;
+    font-size: 2.3vh;
+}
+.nav-bar{
+    width: 100%;
+    background-color: gray;
+    padding: 1px;
+    height: 10vh;
+}
+.logo{
+    width: 25%;
+    float: left;
+}
+.logo img{
+    margin-left: 10%;
+    margin-top: 5%;
+}
+.right-bar{
+    width: 75%;
+    float: left;
+    
+}
+.right-bar ul{
+    list-style: none;
+    margin-left:50%;
+    
+}
+.nav-bar ul li{
+    font-weight: bold;
+    display: inline-block;
+    margin: 5% 2.5%;
+    font-size: 2vh;
+    color: white;
+    text-transform: uppercase;
+}
+/*top start*/
+.top{
+    width: 100%;
+    background-image: linear-gradient(rgba(0,0,0, 0.7), rgba(0,0,0, 0.7)), url("slider.jpg");
+    background-size: cover;
+    height: 80vh;
+    text-align: center;
+    padding: 1px;
+}
+.top p{
+    margin-top: 60px;
+    font-size: 3vh;
+    font-weight: bold;
+    background: transparent;
+    opacity: 0.8;
+    color: lightblue;
+}
+.top h2{
+    font-size: 7vh;
+    color: lightblue;
+    background: transparent;
+    opacity: 0.6;
+    margin-top: 20px;
+}
+.top h1{
+    font-size: 8vh;
+    color: yellow;
+    background: transparent;
+    opacity: 0.6;
+}
+.top small{
+    color: lightblue;
+    font-size: 2vh;
+}
+#btn1, #btn2{
+    margin-top: 30px;
+    width: 100px;
+    height: 7%;
+    border-radius: 20px;
+    background: yellow;
+    color: black;
+    margin-left: 10px;
+    border: none;
+    opacity: 0.7;
+}
+/*top end*/
+/*section2 start*/
+.section2{
+    width: 100%;
+    height: 80vh;
+}
+.left-section2{
+    width: 40%;
+    height: 100%;
+    margin-left: 60px;
+    float: left;
+}
+
+.left-section2 h1{
+    margin-top: 10%;
+    color: yellow;
+    font-size: 5vh;
+    text-transform: uppercase;
+}
+.left-section2 h2{
+    font-size: 4.5vh;
+    margin-top: 20px;
+    color: blueviolet;
+
+}
+#btn3{
+    margin-top: 50px;
+    background-color: yellow;
+    text-align: center;
+    padding: 3px;
+    height: 30px;
+    border:none;
+    width: 80px;
+    border-radius: 20px;
+}
+.right-section2{
+    width: 40%;
+    margin-top: 6%;
+    height: 70vh;
+    margin-left: 10%;
+    background-image: url('about.png');
+    background-repeat: no-repeat;
+    float: left;
+}
+.right-section2 img{
+    width: 60%;
+    height: 100%;
+    margin-left: 10%;
+}
+.image{
+    margin-top: -60px;
+}
+.section3{
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+    background: lightcyan;
+    padding: 1px;
+    height: 90vh;
+}
+.section3 h1{
+    margin: 2% 2%;
+    text-transform: uppercase;
+}
+.section3-detail{
+    width: 23%;
+    height: 45%;
+    float: left;
+    margin: 2% 1%;
+}
+.section3-detail img{
+    width: 100%;
+    height: 100%;
+    
+}
+.section3 h3{
+    text-transform: uppercase;
+}
+.recent-posts{
+    
+    width: 100%;
+    height: 80vh;
+}
+.recent-posts h1{
+    text-align: center;
+    margin: 2% 2%;
+    color: black;
+    text-transform: uppercase;
+}
+.posts{
+    margin-left: 1%;
+    float: left;
+    height: 100%;
+    width: 30%;
+}
+.posts img{
+    width: 100%;
+    height: 100%;
+} 
+.posts1{
+    margin-left: 1%;
+    float: left;
+    height: 50%;
+    width: 33%;
+}
+.posts1 img{
+    width: 100%;
+
+}
+.posts1 h4{
+    margin-top: 2%;
+    color: darkslateblue;
+}
+.posts1 p{
+    color: darkslateblue;
+    margin-top: 2%;
+}
+#btn4{
+    background: yellow;
+    width: 100px;
+    height: 40px;
+    border-radius: 20px;
+    color: white;
+    padding: 4px;
+    border: none;
+}
+.clear{
+    clear: both;
+}
+.section4{
+    width: 100%;
+    background-image: linear-gradient(rgba(255,255,51,0.8),rgba(255,255,51,0.8)), url("portf.jpg");
+}
+.info{
+    padding: 1px;
+    width: 65%;
+    margin: 0 auto;
+}
+.info h1{
+    margin: 3% ;
+    color: lightcyan;
+    text-align: center;
+    text-transform: uppercase;
+}
+.info p{
+    margin: 2%;
+    color: lightcyan;
+   text-align: center;
+}
+.section4 ul{
+    width: 60%;
+    margin: 2% auto;
+}
+.section4 ul li{
+    margin-left: 7%;
+    list-style: none;
+    display: inline-block;
+    text-transform: uppercase;
+    color: white;
+    font-size: 13px;
+}
+.active{
+    width: 100px;
+    background: darkblue;
+    padding: 7px;
+    text-align: center;
+    border-radius: 20px;
+    color: white;
+}
+.images{
+    margin: 3% auto;
+    width: 90%;
+    height: 70vh;
+}
+.box1{
+    float: left;
+    width: 45%;
+    height: 86%;
+}
+.box1 img{
+    width: 100%;
+    height: 100%;
+}
+.box2{
+    float: left;
+    width: 22%;
+    height: 40%;
+    margin: 1% 1%;
+}
+.box2 img{
+    width: 100%;
+    height: 100%;
+}
+.box2:nth-child(2){
+    margin-top: 0;
+}
+.box2:nth-child(3){
+    margin-top: 0;
+}
+.reviews{
+    width: 100%;
+    text-align: center;
+}
+.reviews h1{
+    text-transform: uppercase;
+
+}
+.reviews p{
+    margin: 2% 0;
+}
+.customers{
+    width: 23%;
+    height: 65vh;
+    margin-left:7.5%;
+    margin-top: 3%;
+    float: left;
+}
+.comments{
+    overflow: hidden;
+    width: 99.5%;
+    height: 60%;
+    background-color: lightgray;
+    border-radius: 15px;
+}
+
+.comments i{
+    font-size: 5vh;
+    margin-left: -80%;
+}
+.customers img{
+    margin: 5% 0;
+}
+.customers h3{
+    margin: -5%;
+    text-transform: uppercase;
+}
+.footer{
+    width: 100%;
+    height: 110vh;
+}
+.contact{
+    padding: 1px;
+    width: 100%;
+    height: 20%;
+    background-color: yellow;
+
+}
+.questions{
+    float: left;
+    width: 40%;
+    margin: 3% 1%;
+    height: 50%;
+    text-transform: uppercase;
+}
+.questions h1{
+    font-size: 4vh;
+}
+.questions h2{
+    font-size:3vh;
+}
+.form{
+    float: right;
+    width: 40%;
+    margin: 2% 3%;
+}
+.form input{
+    width: 45%;
+    height: 30px;
+    border: none;
+    border-radius: 3px;
+    float: left;
+    margin: 2% 2%;
+}
+.form input:nth-child(3){
+    width: 74%;
+}
+#btn5{
+    width: 15%;
+    float: left;
+    border-radius: 5px;
+    padding: 7px;
+    background: blue;
+    border: none;
+    margin: 2% 3%;
+}
+.footer-info{
+    width: 100%;
+    background-image: linear-gradient(rgba(128,128,128,0.9),rgba(128,128,128,0.9)), url("footer_bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 80%;
+}
+.about{
+    float: left;
+    width: 28%;
+    height: 80%;
+    margin: 4% 0.5%;
+    margin-left: 5%;
+    text-align: left;
+}
+.about h3{
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    margin: 7%;
+    font-size: 4vh;
+}
+.about img{
+    margin: 1% 6%;
+}
+.about p{
+   margin-left: 7%;
+   color: white;
+}
+.about ul{
+    margin: 3% 3%;
+}
+.about ul li{
+    list-style: none;
+    margin: 2% 2%;
+    float: left;
+    width: 50px;
+    height: 50px;
+    background-color: yellow;
+    border-radius: 50%;
+    font-size: 3vh;
+    text-align: center;
+    line-height: 50px;
+}
+.explore{
+    float: left;
+    width: 20%;
+    margin: 4% 0.5%;
+    height: 80%;
+}
+.explore h3{
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    margin: 7%;
+    font-size: 4vh;
+    margin-bottom: 0%;
+}
+.explore .fas{
+    margin-left:7%;
+    color: white;
+}
+.explore p{
+    color: white;
+}
+
+.latest-post{
+    float: left;
+    width: 20%;
+    margin: 4% 0.5%;
+    height: 80%;
+}
+.latest-post h3{
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    margin: 7% 0%;
+    font-size: 4vh;
+}
+.link-left-main{
+    float: left;
+    width: 21%;
+    height: 70%;
+}
+.link-left{
+    display: block;
+    width: 80%;
+    height: 15%;
+    margin-top: 30%;
+    color: white;
+    border: 2px solid white;
+    border-radius: 50%;
+    text-align: center;
+}
+.link-left span{
+    font-size: 20px;
+}
+.link-right-main{
+    float: left;
+    width: 70%;
+}
+.link-right{
+    margin-top: 10%;
+    margin-left: 5%;
+    float: left;
+    width: 80%;
+    height: 10%;
+}
+.link-right:nth-child(2){
+    margin-top: 15%;
+}
+.link-right:nth-child(3){
+    margin-top: 14%;
+}
+.link-right:nth-child(4){
+    margin-top: 14%;
+}
+.link-right p{
+    font-size: 15px;
+    line-height: 20px;
+    color: white;
+}
+.contact-info{
+    float: left;
+    width: 20%;
+    margin: 4% 0.5%;
+    height: 80%;
+}
+.contact-info h3{
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    margin: 7% 0%;
+    font-size: 4vh;
+}
+.contact-info ul{
+    list-style: none;
+}
+.contact-info ul li{
+    display: block;
+    margin-top: 10%;
+    color: white;
+}
+.contact-info ul li p{
+    margin-left: 15%;
+    margin-top: -7%;
+}
+.last{
+    width: 100%;
+    float: left;
+    height: 7%;
+    margin-top: -45px;
+    background-color: blue;
+    text-align: center;
+    color: white;
+    line-height: 50px; 
+}
